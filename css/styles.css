@@ -336,6 +336,7 @@ form button:hover {
 .blocks{
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
 .block-1 {
     max-width: 340px;
@@ -504,15 +505,12 @@ form button:hover {
     position: absolute;
     z-index: 2;
     margin-left: 260px;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 .sc-88 h3{
     text-align: center;
-    font-weight: bold;
     font-size: 24px;
     width: 550px;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
 }
 .sc-88 img:hover{
     opacity: 0.7;
@@ -527,4 +525,41 @@ form button:hover {
     max-width: 250px;
     width: 100%;
     margin-top: 20px;
+    font-family: cursive;
+}
+.sc-88 button{
+    padding: 15px 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    width: 220px;
+    outline: none;
+    background-color: #022C43;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+    transition: 0.22s linear;
+}
+.sc-88 button:hover{
+    background-color: black;
+    cursor: pointer;
+    font-size: 17px;
+    color: blue;
+}
+.footer{
+    background-color: #022C43;
+    margin-top: 200px;
+    height: 270px;
+    color: white;
+}
+.maindivv{
+    display: flex;
+    justify-content: space-around;
+    line-height: 45px;
+}
+.footer span {
+    font-size: 62px;
+    color: yellowgreen;
 }
