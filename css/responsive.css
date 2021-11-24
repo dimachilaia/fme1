@@ -1,0 +1,22 @@
+@media (max-width: 800px){
+    .section-2div-image{
+        margin: 0 auto;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .sc-88{
+        display: none;
+    }
+}
+@media (max-width: 560px){
+    .texts{
+       width: 5px;
+       margin-right: 40px;
+    }
+}
+@media (max-width: 1100px){
+    .blocks{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
